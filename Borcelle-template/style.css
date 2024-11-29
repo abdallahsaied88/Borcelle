@@ -1,0 +1,321 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.font-Montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+/* home page end */
+/* NAVBAR START */
+main {
+    padding: 10px 120px ; 
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: #f6f4f3;
+}
+.Nav-Bar {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #31241e ;
+}
+.Nav-Bar .Nav-Bar-Left {
+    display: flex; 
+    align-items: center; 
+} 
+.Nav-Bar .Nav-Bar-Left i {
+    color: #d1c8c1;
+    font-size: 30px;
+    margin-right: 5px;
+}
+.Nav-Bar .Nav-Bar-Left h1 {
+    color: #d1c8c1;
+    font-size: 20px;
+    margin-left: 5px;
+    color: #31241e;
+    text-transform: uppercase;
+}
+.Nav-Bar .Nav-Bar-Right ul {
+    display: flex;
+    list-style-type: none;
+}
+.Nav-Bar .Nav-Bar-Right ul li {
+    margin: 0 20px;
+}
+.Nav-Bar .Nav-Bar-Right ul li a b{
+    text-decoration: none;
+    color: #86654b;
+    font-family: "Montserrat", sans-serif;
+    font-weight:bolder;
+    font-style: bolder;
+}
+.Nav-Bar .Nav-Bar-Right ul li a {
+    text-decoration: none;
+    color: #31241e;
+    font-family: "Montserrat", sans-serif;
+}
+/* NAVBAR END */
+/* Section-One start */
+.Section-One {
+    padding: 20px 0 ;
+    width: 100%;
+    color: #31241e;
+}
+.Section-One-image img {
+    width: 100%;
+    padding-bottom: 20px;
+}
+.Section-One-Bottom {
+    display: flex;
+    justify-content: space-between;
+}
+.Section-One-Bottom .Section-One-Bottom-Left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+button {
+    width: 200px;
+    height: 35px;
+    background-color: #d1c8c1;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    align-self: flex-start;
+}
+ button:hover {
+    background-color: white;
+    transition: all 1s ease;
+}
+ button a {
+    text-decoration: none;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+}
+ button a:hover {
+    color: #86654b;
+    transition: all 0.6s ease;
+}
+.Section-One-Bottom-Right {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-shrink: 1;
+}
+.Section-One-Bottom-Right img {
+    padding-right: 10px;
+    max-width: 181px;
+    max-height: 170px;
+    
+}
+.Section-One-Bottom-Right .padding-zero {
+    padding: 0px;
+}
+/* Section-One end */
+/* home page end */
+/* about start */
+.section-two {
+    padding: 50px;
+    display: flex;
+    justify-content: space-between; 
+    color: #31241e;
+}
+.Section-Two-Right {
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.Section-Two-Right-p1 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: italic;
+    font-size: small;
+}
+.Section-Two-Right-p1 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+}
+.Section-Two-Right button {
+    align-self: flex-end;
+}
+/* about end */
+/* COURSES start */
+.section-three {
+    padding: 50px 0 ; 
+    color: #31241e;
+}
+.section-three h5 {
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    
+}
+.section-three .section-three-top{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+.section-three .section-three-bottom{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    gap: 0px 50px;
+}
+.section-three-top-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.section-three-top-right button {
+    align-self: flex-end;
+}
+/* COURSES end */
+/* shop start */
+.section-four {
+    padding: 50px 0 ;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: small;
+    color: #31241e;
+}
+.section-four-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.section-four-top h1 {
+    margin-bottom: 5px;
+    font-size: 35px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: italic;
+
+}
+.section-four-bottom {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px
+}
+.section-four-bottom div{
+    padding: 10px 0;
+    height: 350px;
+    width: 400px;
+    background-color: #eee;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-four-bottom div h4{
+    font-size: 18px;
+}
+.section-four-bottom div p{
+    font-weight: bold;
+}
+.section-four-bottom div button {
+    border-radius: 0;
+    align-self: center;
+    width: 150px;
+    height: 35px;
+}
+.section-four-bottom div button:hover {
+    background-color: #86654b;
+}
+.section-four-bottom div button  a{
+    border-radius: 0;
+    align-self: center;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 15px;
+}
+.section-four-bottom div button a:hover {
+    color: white;
+}
+/* shop end */
+/* CONTACT start  */
+.section-five {
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    color: #31241e;
+}
+.section-five-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.section-five-left h1 {
+    font-size: 35px;
+    text-transform: uppercase;  
+}
+.section-five-left h5 {
+    font-style: italic;
+    text-transform: capitalize;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+form input {
+    width:470px ;
+    height: 55px;
+    background-color: #d1c8c1;
+    border: none;
+    outline: none;
+    margin-bottom: 5px;
+    padding: 0 10px;
+    color: black;
+}
+form .MESSAGE {
+    height: 180px;
+} 
+form .submit {
+    width: 180px;
+    height: 35px;
+    align-self: flex-end;
+    border-radius: 50px;
+    font-size: 25px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: bold;
+    font-weight: bolder;
+}
+form .submit:hover {
+    background-color: white;
+    color: #31241e;
+    transition: all 1s ease-in;
+}
+/* CONTACT end  */
